@@ -2,6 +2,17 @@
 # Movie recommendations project 
 
 
+
+
+![movie](https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/d63db2b8-94a0-448c-8020-2f797d7cc318)
+
+
+
+
+
+
+
+
 Welcome to the Movie Recommender System Repository! Our project offers a streamlined movie recommender system that, as you type a movie's name in the search box, promptly generates five closely related movie suggestions. This user-friendly system provides you with relevant recommendations in an aesthetically pleasing and grammatically correct format, enhancing your cinematic exploration. Discover your next movie adventure effortlessly with us!
 
 
