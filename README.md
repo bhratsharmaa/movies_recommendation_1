@@ -41,6 +41,30 @@ Pyhton, Nltk , Sklearn, Streamlit
 ### (iii) Applied function which  will fetch title of top 5 movie after searching movie in title box .
 ### (iv) Deployed to render.com
 
+# Here are some screen shots showing how it works:
+
+
+
+
+<img width="960" alt="2" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/49029f7c-a58c-454b-a48c-a4486cae4fbe">
+
+
+
+
+
+<img width="836" alt="3" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/a61f0199-aacb-4af2-8bf5-4098c923976a">
+
+
+
+
+
+<img width="758" alt="4" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/e97ea80a-34f4-4bbf-a562-a74777cf57d1">
+
+
+
+
+
+
 # Problems Faced
 ### (i) Selecting important keywords from the columns
 ### (ii) Determining the most effective method for measuring movie similarity.
