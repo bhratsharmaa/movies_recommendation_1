@@ -46,19 +46,22 @@ Pyhton, Nltk , Sklearn, Streamlit
 
 
 
-<img width="960" alt="2" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/49029f7c-a58c-454b-a48c-a4486cae4fbe">
+<img width="960" alt="1" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/2cc57ca2-26f7-42eb-b736-1d1a192abab8">
 
 
 
 
 
-<img width="836" alt="3" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/a61f0199-aacb-4af2-8bf5-4098c923976a">
+
+<img width="960" alt="2" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/ed4c511e-fb08-4b7e-9b2d-dab0e64c35b6">
 
 
 
 
 
-<img width="758" alt="4" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/e97ea80a-34f4-4bbf-a562-a74777cf57d1">
+
+<img width="960" alt="3" src="https://github.com/bhratsharmaa/movies_recommendation_1/assets/132134997/232d2639-f508-4845-8bc8-6073c4bdac03">
+
 
 
 
