@@ -114,21 +114,166 @@ Pyhton, Nltk , Sklearn, Streamlit
  ## Model Building 
  (i) The installation of 'nltk' was followed by the importation of the 'PorterStemmer' module. Stemming, a crucial data refinement process, was then skillfully applied to reduce words to their base forms.
  
- (ii) Installed 'CountVectorizer' from 'sklearn' with 'max_features' set to 5000. Created an object named 'vector' using 'cv.fit_transform' to transform the 'tags' column in our dataset into a numerical format.
  
- (iii) Incorporating the power of 'cosine_similarity' from the 'sklearn.metrics.pairwise' library, this code elegantly measures the similarity between movies by analyzing their content. By constructing a similarity matrix, the 'recommend' function is equipped to accept a movie title as input. It meticulously identifies the movie's index in the dataset, subsequently retrieving the top 5 most akin movies. These recommendations are thoughtfully curated based on the movies' cosine similarity scores, empowering users to explore cinematic gems aligned with their unique content preferences
+ 
+ 
+ 
+ <img width="474" alt="4" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/9b209dfc-5ae8-4ec9-b119-869d4252da7d">
+
+
+
+
+
+
+
+ 
+ (ii) Installed 'CountVectorizer' from 'sklearn' with 'max_features' set to 5000. Created an object named 'vector' using 'cv.fit_transform' to transform the 'tags' column in our dataset into a numerical format.
+
+
+
+
+
+<img width="591" alt="5" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/aac8757f-03d2-487d-a581-e25dc7ec38a1">
+
+
+
+
+
+
+ 
+ (iii) Incorporating the power of 'cosine_similarity' from the 'sklearn.metrics.pairwise' library, this code elegantly measures the similarity between movies by analyzing their content. By constructing a similarity matrix, the 'recommend' function is equipped to accept a movie title as input. It meticulously identifies the movie's index in the dataset, subsequently retrieving the top 5 most akin movies. These recommendations are thoughtfully curated based on the movies' cosine similarity scores, empowering users to explore cinematic gems aligned with their unique content preferences.
+
+ 
+
+
+
+
+
+
+<img width="764" alt="6" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/234a012c-ca44-402c-b35c-e3d7189374fd">
+
+
+
+
+
+
+
+
+
+
+
+<img width="370" alt="7" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/e78d607d-c5c9-486b-93c3-7d8100f528ae">
+
+
+
+
+
+
+
+
+
 
  (iv) Saved the movies and similarity in a folder with the help of pickle.
 
+
+
+
+
+
+
+<img width="626" alt="8" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/824daad0-1051-4a43-84e0-1d5a071b0ad7">
+
+
+
+
+
+
+
+
+ 
+
  ## Webpage building
  A Movie Recommender system was created using Python and Streamlit. The code utilizes a dataset of movies, loaded from a 'movies_dict.pkl' file, and a precomputed similarity matrix from 'similarity.pkl.' The heart of the system is the 'recommend' function, which takes a user-selected movie as input and returns a list of the top 5 recommended movies based on similarity scores. The Streamlit-based user interface allows users to choose a movie from the dataset and click the 'Recommend' button to instantly receive personalized movie suggestions. This project offers an engaging and user-friendly way to explore movie recommendations.
+
+
+
+
+
+
+
+
+
+
+<img width="590" alt="9" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/329ec6e9-ae47-4b67-bfc8-1a298fa4cde1">
+
+
+
+
+
+
+
+
+
+
+<img width="456" alt="10" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/d572b3ab-8bce-4551-85f6-5da6ba2f2cb9">
+
+
+
+
+# Here are some screenshots showing how it works 
+
+
+
+
+
+
+
+
+<img width="960" alt="11" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/b87c06d0-83a8-4a20-aff2-67206faa1175">
+
+
+
+
+
+
+
+
+
+
+<img width="960" alt="12" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/4c1e8ed5-6df1-43dc-8f8f-212615863f70">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="960" alt="13" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/ff1971fe-ca78-4489-8cf7-85727d1e1714">
+
+
+
+
+
+
+
+
+
+
 
 
 # Problems Faced
 ### (i) Selecting important keywords from the columns
 ### (ii) Determining the most effective method for measuring movie similarity.
 ### (iii) Identifying the approach to building the webpage.
-### (iv)  Exploring the process of deploying our webpage.
+### (iv)  Exploring the process of deploying our webpage.  
+
+
 
 
 .
