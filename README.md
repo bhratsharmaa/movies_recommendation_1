@@ -28,6 +28,7 @@ The Movie Recommendation Web Application is a data-driven project designed to as
 (i) The project begins by importing movie-related data from Kaggle, which includes information about movie_id, titles, overviews, genres, keywords, cast, and crew.
 
 (ii) Data cleansing techniques are applied to handle missing values, duplicates etc,ensuring the quality and consistency of the dataset.
+
 #### 2) Feature Engineering:
 To improve the recommendation process, key information from various columns, including overview, genres, keywords, cast, and crew, is combined to create a new composite feature called "tags." This step enriches the dataset with valuable content information.
 #### 3) Text Preprocessing:
@@ -75,9 +76,40 @@ Pyhton, Nltk , Sklearn, Streamlit
 ## Data Cleaning &  Feature Engineering  :
 (i) Checked and removed null,noise,duplicates.
 
-(ii) Extracted the desired values from each column by appliying function on the columns which were in the form of dictionary.
+
+
+<img width="271" alt="1" src="https://github.com/bhratsharmaa/Pizza_Sales_analysis/assets/132134997/ae42e69f-d395-48f3-abb0-16e520914ece">
+
+
+
+
+(ii) Extracted the desired values from each column by appliying functions on the columns which were in the form of dictionary.
+
+
+<img width="449" alt="2" src="https://github.com/bhratsharmaa/Pizza_Sales_analysis/assets/132134997/1faeeb4d-2338-4689-860a-a5dd451eb2ec">
+
+
+
+
+<img width="335" alt="3" src="https://github.com/bhratsharmaa/Pizza_Sales_analysis/assets/132134997/1f2001cd-0556-4b7a-9fa0-a17305605c56">
+
+
+
+
+
+
 
 (iii)  meticulously amalgamated the contents of these columns, ingeniously crafting a novel column dubbed 'tags.' This involved uniting all the extracted values with spaces and then uniformly converting them to lowercase
+
+
+
+<img width="617" alt="4" src="https://github.com/bhratsharmaa/movies_recommendation_model/assets/132134997/61d5272b-df0c-4021-b910-f027e486b71d">
+
+
+
+
+
+
  
  ## Model Building 
  (i) The installation of 'nltk' was followed by the importation of the 'PorterStemmer' module. Stemming, a crucial data refinement process, was then skillfully applied to reduce words to their base forms.
